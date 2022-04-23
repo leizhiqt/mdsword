@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<licence>
+  <time>20501231</time>
+  <protocols>
+    <protocol id="1">
+      <name>IP</name>
+      <cases>1000000</cases>
+    </protocol>
+    <protocol id="2">
+      <name>TCP</name>
+      <cases>1000000</cases>
+    </protocol>
+    <protocol id="3">
+      <name>UDP</name>
+      <cases>1000000</cases>
+    </protocol>
+    <protocol id="4">
+      <name>ICMP</name>
+      <cases>1000000</cases>
+    </protocol>
+    <protocol id="5">
+      <name>HTTP</name>
+      <cases>1000000</cases>
+    </protocol>
+    <protocol id="6">
+      <name>MODBUS-TCP</name>
+      <cases>1000000</cases>
+    </protocol>
+    <protocol id="7">
+      <name>IEC61850-GOOSE</name>
+      <cases>1000000</cases>
+    </protocol>
+    <protocol id="8">
+      <name>IEC61850-SV</name>
+      <cases>1000000</cases>
+    </protocol>
+    <protocol id="9">
+      <name>CAN</name>
+      <cases>1000000</cases>
+    </protocol>
+    <protocol id="11">
+      <name>DNP3</name>
+      <cases>1000000</cases>
+    </protocol>
+    <protocol id="10">
+      <name>OPC</name>
+      <cases>1000000</cases>
+    </protocol>
+  </protocols>
+  <monitors>
+    <monitor id="1">PROTOCOL</monitor>
+    <monitor id="2">CAMERA</monitor>
+  </monitors>
+</licence>

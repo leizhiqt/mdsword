@@ -1,0 +1,44 @@
+touch Makefile.am
+autoscan
+vi configure.scan
+aclocal
+autoheader
+touch README NEWS AUTHORS ChangeLog
+automake --add-missing
+autoconf
+./configure
+
+#pkg-config --cflags --libs gtk+-2.0
+#pkg-config --cflags --libs opencv
+
+#Socket编程模式
+1.多进程模式 优势:长连接
+2.多线程模式 优势:短连接
+3.select NIO模式+线程池
+4.epoll NIO模式+线程池 优势:高并发
+
+gcc -g a.c
+mtrace ./module/server server-trace.log
+
+#deepdoor
+#gstreamer1 多媒体框架
+#ffmpeg 多媒体视频处理工具FFmpeg有非常强大的功能包括视频采集功能、视频格式转换、视频抓图、给视频加水印等
+#rpm -ivh https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-24.noarch.rpm
+#rpm -ivh https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-24.noarch.rpm
+#dnf install gstreamer1 gstreamer1-libav gstreamer1-plugins-base gstreamer1-plugins-bad-free gstreamer1-plugins-bad-nonfree ffmpeg-devel ffmpeg-libs ffmpeg opencv opencv-core opencv-devel gstreamer1-plugins-good gstreamer1-plugins-bad-freeworld
+#dnf install libdv wavpack
+
+#ffmpeg push
+ffmpeg -i input.mp4 -c:v libx264 -c:a aac -strict -2 -f hls /usr/share/nginx/html/hLive/hls/test.m3u8
+ffmpeg -re -i Fantopia.mp4 -c:a copy -c:v libx264 -f flv rtmp://127.0.0.1/live/stream1
+
+ffmpeg -re -i Fantopia.avi -c:a copy -c:v libx264 -q 0 -f flv 1.flv
+
+ffmpeg -i rtsp://192.168.1.10/main -f flv -s 640x360 -an rtmp://192.168.1.93/live/stream1
+ffmpeg -i rtsp://admin:admin@192.168.0.172/cam/realmonitor?channel=1&subtype=0 -f flv -s 640x360 -an rtmp://192.168.0.186:1935/hls/test123
+
+#easyrtmp_rtsp -s rtsp://192.168.1.10/main -m rtmp://127.0.0.1/live/stream1
+
+ffmpeg -re -i camera1.flv -vcodec copy -acodec copy -f flv rtmp://127.0.0.1/live/stream1
+ffmpeg -re -i camera2.flv -vcodec copy -acodec copy -f flv rtmp://127.0.0.1/live/stream2
+

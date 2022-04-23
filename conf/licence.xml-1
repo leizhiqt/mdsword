@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<licence>
+  <time>20170609</time>
+  <protocols>
+    <protocol id="1">
+      <name>IP</name>
+      <cases>10000</cases>
+    </protocol>
+    <protocol id="2">
+      <name>TCP</name>
+      <cases>10000</cases>
+    </protocol>
+    <protocol id="3">
+      <name>UDP</name>
+      <cases>10000</cases>
+    </protocol>
+    <protocol id="4">
+      <name>ICMP</name>
+      <cases>10000</cases>
+    </protocol>
+    <protocol id="6">
+      <name>MODBUS-TCP</name>
+      <cases>10000</cases>
+    </protocol>
+    <protocol id="7">
+      <name>IEC61850-GOOSE</name>
+      <cases>10000</cases>
+    </protocol>
+    <protocol id="8">
+      <name>IEC61850-SV</name>
+      <cases>10000</cases>
+    </protocol>
+  </protocols>
+</licence>

@@ -1,0 +1,393 @@
+/* config.h.in.  Generated from configure.ac by autoheader.  */
+
+/* Define to 1 if you have the `alarm' function. */
+#undef HAVE_ALARM
+
+/* Define to 1 if you have the <arpa/inet.h> header file. */
+#undef HAVE_ARPA_INET_H
+
+/* Define to 1 if you have the `bzero' function. */
+#undef HAVE_BZERO
+
+/* Define to 1 if you have the <fcntl.h> header file. */
+#undef HAVE_FCNTL_H
+
+/* Define to 1 if you have the `fork' function. */
+#undef HAVE_FORK
+
+/* Define to 1 if you have the `gethostbyname' function. */
+#undef HAVE_GETHOSTBYNAME
+
+/* Define to 1 if you have the `gettimeofday' function. */
+#undef HAVE_GETTIMEOFDAY
+
+/* Define to 1 if you have the `inet_ntoa' function. */
+#undef HAVE_INET_NTOA
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* Define to 1 if you have the `isascii' function. */
+#undef HAVE_ISASCII
+
+/* Define to 1 if you have the `avcodec' library (-lavcodec). */
+#undef HAVE_LIBAVCODEC
+
+/* Define to 1 if you have the `avdevice' library (-lavdevice). */
+#undef HAVE_LIBAVDEVICE
+
+/* Define to 1 if you have the `avfilter' library (-lavfilter). */
+#undef HAVE_LIBAVFILTER
+
+/* Define to 1 if you have the `avformat' library (-lavformat). */
+#undef HAVE_LIBAVFORMAT
+
+/* Define to 1 if you have the `avutil' library (-lavutil). */
+#undef HAVE_LIBAVUTIL
+
+/* Define to 1 if you have the `dlib' library (-ldlib). */
+#undef HAVE_LIBDLIB
+
+/* Define to 1 if you have the `gdal' library (-lgdal). */
+#undef HAVE_LIBGDAL
+
+/* Define to 1 if you have the `GL' library (-lGL). */
+#undef HAVE_LIBGL
+
+/* Define to 1 if you have the `glut' library (-lglut). */
+#undef HAVE_LIBGLUT
+
+/* Define to 1 if you have the `mauto' library (-lmauto). */
+#undef HAVE_LIBMAUTO
+
+/* Define to 1 if you have the `net' library (-lnet). */
+#undef HAVE_LIBNET
+
+/* Define to 1 if you have the `opencv_aruco' library (-lopencv_aruco). */
+#undef HAVE_LIBOPENCV_ARUCO
+
+/* Define to 1 if you have the `opencv_bgsegm' library (-lopencv_bgsegm). */
+#undef HAVE_LIBOPENCV_BGSEGM
+
+/* Define to 1 if you have the `opencv_bioinspired' library
+   (-lopencv_bioinspired). */
+#undef HAVE_LIBOPENCV_BIOINSPIRED
+
+/* Define to 1 if you have the `opencv_calib3d' library (-lopencv_calib3d). */
+#undef HAVE_LIBOPENCV_CALIB3D
+
+/* Define to 1 if you have the `opencv_ccalib' library (-lopencv_ccalib). */
+#undef HAVE_LIBOPENCV_CCALIB
+
+/* Define to 1 if you have the `opencv_core' library (-lopencv_core). */
+#undef HAVE_LIBOPENCV_CORE
+
+/* Define to 1 if you have the `opencv_cvv' library (-lopencv_cvv). */
+#undef HAVE_LIBOPENCV_CVV
+
+/* Define to 1 if you have the `opencv_datasets' library (-lopencv_datasets).
+   */
+#undef HAVE_LIBOPENCV_DATASETS
+
+/* Define to 1 if you have the `opencv_dpm' library (-lopencv_dpm). */
+#undef HAVE_LIBOPENCV_DPM
+
+/* Define to 1 if you have the `opencv_face' library (-lopencv_face). */
+#undef HAVE_LIBOPENCV_FACE
+
+/* Define to 1 if you have the `opencv_features2d' library
+   (-lopencv_features2d). */
+#undef HAVE_LIBOPENCV_FEATURES2D
+
+/* Define to 1 if you have the `opencv_flann' library (-lopencv_flann). */
+#undef HAVE_LIBOPENCV_FLANN
+
+/* Define to 1 if you have the `opencv_freetype' library (-lopencv_freetype).
+   */
+#undef HAVE_LIBOPENCV_FREETYPE
+
+/* Define to 1 if you have the `opencv_fuzzy' library (-lopencv_fuzzy). */
+#undef HAVE_LIBOPENCV_FUZZY
+
+/* Define to 1 if you have the `opencv_hdf' library (-lopencv_hdf). */
+#undef HAVE_LIBOPENCV_HDF
+
+/* Define to 1 if you have the `opencv_hfs' library (-lopencv_hfs). */
+#undef HAVE_LIBOPENCV_HFS
+
+/* Define to 1 if you have the `opencv_highgui' library (-lopencv_highgui). */
+#undef HAVE_LIBOPENCV_HIGHGUI
+
+/* Define to 1 if you have the `opencv_imgcodecs' library
+   (-lopencv_imgcodecs). */
+#undef HAVE_LIBOPENCV_IMGCODECS
+
+/* Define to 1 if you have the `opencv_imgproc' library (-lopencv_imgproc). */
+#undef HAVE_LIBOPENCV_IMGPROC
+
+/* Define to 1 if you have the `opencv_img_hash' library (-lopencv_img_hash).
+   */
+#undef HAVE_LIBOPENCV_IMG_HASH
+
+/* Define to 1 if you have the `opencv_line_descriptor' library
+   (-lopencv_line_descriptor). */
+#undef HAVE_LIBOPENCV_LINE_DESCRIPTOR
+
+/* Define to 1 if you have the `opencv_ml' library (-lopencv_ml). */
+#undef HAVE_LIBOPENCV_ML
+
+/* Define to 1 if you have the `opencv_objdetect' library
+   (-lopencv_objdetect). */
+#undef HAVE_LIBOPENCV_OBJDETECT
+
+/* Define to 1 if you have the `opencv_optflow' library (-lopencv_optflow). */
+#undef HAVE_LIBOPENCV_OPTFLOW
+
+/* Define to 1 if you have the `opencv_phase_unwrapping' library
+   (-lopencv_phase_unwrapping). */
+#undef HAVE_LIBOPENCV_PHASE_UNWRAPPING
+
+/* Define to 1 if you have the `opencv_photo' library (-lopencv_photo). */
+#undef HAVE_LIBOPENCV_PHOTO
+
+/* Define to 1 if you have the `opencv_plot' library (-lopencv_plot). */
+#undef HAVE_LIBOPENCV_PLOT
+
+/* Define to 1 if you have the `opencv_reg' library (-lopencv_reg). */
+#undef HAVE_LIBOPENCV_REG
+
+/* Define to 1 if you have the `opencv_rgbd' library (-lopencv_rgbd). */
+#undef HAVE_LIBOPENCV_RGBD
+
+/* Define to 1 if you have the `opencv_saliency' library (-lopencv_saliency).
+   */
+#undef HAVE_LIBOPENCV_SALIENCY
+
+/* Define to 1 if you have the `opencv_shape' library (-lopencv_shape). */
+#undef HAVE_LIBOPENCV_SHAPE
+
+/* Define to 1 if you have the `opencv_stereo' library (-lopencv_stereo). */
+#undef HAVE_LIBOPENCV_STEREO
+
+/* Define to 1 if you have the `opencv_stitching' library
+   (-lopencv_stitching). */
+#undef HAVE_LIBOPENCV_STITCHING
+
+/* Define to 1 if you have the `opencv_structured_light' library
+   (-lopencv_structured_light). */
+#undef HAVE_LIBOPENCV_STRUCTURED_LIGHT
+
+/* Define to 1 if you have the `opencv_superres' library (-lopencv_superres).
+   */
+#undef HAVE_LIBOPENCV_SUPERRES
+
+/* Define to 1 if you have the `opencv_surface_matching' library
+   (-lopencv_surface_matching). */
+#undef HAVE_LIBOPENCV_SURFACE_MATCHING
+
+/* Define to 1 if you have the `opencv_tracking' library (-lopencv_tracking).
+   */
+#undef HAVE_LIBOPENCV_TRACKING
+
+/* Define to 1 if you have the `opencv_video' library (-lopencv_video). */
+#undef HAVE_LIBOPENCV_VIDEO
+
+/* Define to 1 if you have the `opencv_videoio' library (-lopencv_videoio). */
+#undef HAVE_LIBOPENCV_VIDEOIO
+
+/* Define to 1 if you have the `opencv_videostab' library
+   (-lopencv_videostab). */
+#undef HAVE_LIBOPENCV_VIDEOSTAB
+
+/* Define to 1 if you have the `opencv_ximgproc' library (-lopencv_ximgproc).
+   */
+#undef HAVE_LIBOPENCV_XIMGPROC
+
+/* Define to 1 if you have the `opencv_xobjdetect' library
+   (-lopencv_xobjdetect). */
+#undef HAVE_LIBOPENCV_XOBJDETECT
+
+/* Define to 1 if you have the `opencv_xphoto' library (-lopencv_xphoto). */
+#undef HAVE_LIBOPENCV_XPHOTO
+
+/* Define to 1 if you have the `pcap' library (-lpcap). */
+#undef HAVE_LIBPCAP
+
+/* Define to 1 if you have the `png' library (-lpng). */
+#undef HAVE_LIBPNG
+
+/* Define to 1 if you have the `pthread' library (-lpthread). */
+#undef HAVE_LIBPTHREAD
+
+/* Define to 1 if you have the `RockeyARM' library (-lRockeyARM). */
+#undef HAVE_LIBROCKEYARM
+
+/* Define to 1 if you have the `swscale' library (-lswscale). */
+#undef HAVE_LIBSWSCALE
+
+/* Define to 1 if your system has a GNU libc compatible `malloc' function, and
+   to 0 otherwise. */
+#undef HAVE_MALLOC
+
+/* Define to 1 if you have the `memmove' function. */
+#undef HAVE_MEMMOVE
+
+/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H
+
+/* Define to 1 if you have the `memset' function. */
+#undef HAVE_MEMSET
+
+/* Define to 1 if you have the `mkdir' function. */
+#undef HAVE_MKDIR
+
+/* Define to 1 if you have the <netdb.h> header file. */
+#undef HAVE_NETDB_H
+
+/* Define to 1 if you have the <netinet/in.h> header file. */
+#undef HAVE_NETINET_IN_H
+
+/* Define to 1 if you have the `regcomp' function. */
+#undef HAVE_REGCOMP
+
+/* Define to 1 if you have the `select' function. */
+#undef HAVE_SELECT
+
+/* Define to 1 if you have the `setenv' function. */
+#undef HAVE_SETENV
+
+/* Define to 1 if you have the `socket' function. */
+#undef HAVE_SOCKET
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the `strerror' function. */
+#undef HAVE_STRERROR
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define to 1 if you have the `strpbrk' function. */
+#undef HAVE_STRPBRK
+
+/* Define to 1 if you have the `strrchr' function. */
+#undef HAVE_STRRCHR
+
+/* Define to 1 if you have the `strstr' function. */
+#undef HAVE_STRSTR
+
+/* Define to 1 if you have the <sys/socket.h> header file. */
+#undef HAVE_SYS_SOCKET_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/time.h> header file. */
+#undef HAVE_SYS_TIME_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* Define to 1 if you have the `vfork' function. */
+#undef HAVE_VFORK
+
+/* Define to 1 if you have the <vfork.h> header file. */
+#undef HAVE_VFORK_H
+
+/* Define to 1 if `fork' works. */
+#undef HAVE_WORKING_FORK
+
+/* Define to 1 if `vfork' works. */
+#undef HAVE_WORKING_VFORK
+
+/* Define to 1 if the system has the type `_Bool'. */
+#undef HAVE__BOOL
+
+/* Name of package */
+#undef PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS
+
+/* Define to 1 if you can safely include both <sys/time.h> and <time.h>. */
+#undef TIME_WITH_SYS_TIME
+
+/* Version number of package */
+#undef VERSION
+
+/* Define for Solaris 2.5.1 so the uint64_t typedef from <sys/synch.h>,
+   <pthread.h>, or <semaphore.h> is not used. If the typedef were allowed, the
+   #define below would cause a syntax error. */
+#undef _UINT64_T
+
+/* Define for Solaris 2.5.1 so the uint8_t typedef from <sys/synch.h>,
+   <pthread.h>, or <semaphore.h> is not used. If the typedef were allowed, the
+   #define below would cause a syntax error. */
+#undef _UINT8_T
+
+/* Define to the type of a signed integer type of width exactly 16 bits if
+   such a type exists and the standard includes do not define it. */
+#undef int16_t
+
+/* Define to the type of a signed integer type of width exactly 32 bits if
+   such a type exists and the standard includes do not define it. */
+#undef int32_t
+
+/* Define to the type of a signed integer type of width exactly 64 bits if
+   such a type exists and the standard includes do not define it. */
+#undef int64_t
+
+/* Define to rpl_malloc if the replacement function should be used. */
+#undef malloc
+
+/* Define to `int' if <sys/types.h> does not define. */
+#undef pid_t
+
+/* Define to `unsigned int' if <sys/types.h> does not define. */
+#undef size_t
+
+/* Define to `int' if <sys/types.h> does not define. */
+#undef ssize_t
+
+/* Define to the type of an unsigned integer type of width exactly 16 bits if
+   such a type exists and the standard includes do not define it. */
+#undef uint16_t
+
+/* Define to the type of an unsigned integer type of width exactly 64 bits if
+   such a type exists and the standard includes do not define it. */
+#undef uint64_t
+
+/* Define to the type of an unsigned integer type of width exactly 8 bits if
+   such a type exists and the standard includes do not define it. */
+#undef uint8_t
+
+/* Define as `fork' if `vfork' does not work. */
+#undef vfork

@@ -1,0 +1,17 @@
+cam1=rtsp://192.168.1.10/main
+HKS=rtmp://live.hkstv.hk.lxdns.com/live/hks
+
+#camera1=rtsp://admin:admin123@192.168.1.108/cam/realmonitor?channel=1\&subtype=1
+#camera1=rtmp://192.168.1.131/live/stream1
+#camera2=rtmp://192.168.1.131/live/stream2
+#camera3=camera2_02.mp4
+#camera1=camera2.avi
+#camera2=out2.mp4
+#camera3=out2.mp4
+#cam3=rtsp://admin:admin123@192.168.1.108/cam/realmonitor?channel=1\&subtype=1
+#cam1=rtsp://admin:admin123@192.168.1.108:554/cam/realmonitor?channel=1&subtype=1
+#cam2=rtsp://admin:admin123@192.168.1.108:554/cam/realmonitor?channel=1&subtype=1
+#cam3=rtsp://admin:admin123@192.168.1.108:554/cam/realmonitor?channel=1&subtype=1
+#cam4=rtsp://admin:admin123@192.168.1.108:554/cam/realmonitor?channel=1&subtype=1
+
+email0=rtsp://admin:admin123@192.168.1.108/cam/realmonitor?channel=1\&subtype=1
